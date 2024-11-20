@@ -7,6 +7,7 @@ Step 1: [Set menu structure] Add first-, second- and third-level menu items in t
 Step 2: [Create database tables] In the database, create a tables with required columns.
 
 Step 3: [Add the content] Add the content of the pages in the "forms" directory. Set the file names in this format: "second-level page name"-"third-level page name".php (f.e. page1-subpage2.php).
+Note: To upload images, use the admin-file-uploader.js file stored in the "javascript" directory.
 
 Step 4: [Set custom CSS generator] Leave the code below "Generate custom CSS" comment uncommented in db.php file. Set required MySQL queries and CSS for each page in styles/get-custom-css.php file. At the beginning of the same file, set the name of the table with custom CSS created in the database into the line with this comment "Custom CSS table name". Also, set the name of the specific column of the table with custom CSS created in the database into the line with this comment "Key = custom CSS column name in the table above".
 
